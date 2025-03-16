@@ -1,12 +1,15 @@
 // Settings.tsx
-import React from "react";
-import { View, Text } from "react-native";
+import React from 'react';
+import { SafeAreaView, View, Text, StyleSheet } from 'react-native';
+import styles from '../../styles';
+import FooterBar from '../../components/footerBar';
 
 const Settings = () => {
   return (
-    <View>
-      <Text>Settings Screen - Coming Soon!</Text>
-    </View>
+    <SafeAreaView style={styles.container1}>
+      <Text style={styles.text1}>Settings Screen - Coming Soon!</Text>
+      <FooterBar />
+    </SafeAreaView>
   );
 };
 

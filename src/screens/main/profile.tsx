@@ -1,12 +1,15 @@
 // home.tsx
-import React from "react";
-import { View, Text } from "react-native";
+import React from 'react';
+import { SafeAreaView, Text, StyleSheet } from 'react-native';
+import styles from '../../styles';
+import FooterBar from '../../components/footerBar';
 
 const Profile = () => {
   return (
-    <View>
-      <Text>Profile Screen - Coming Soon!</Text>
-    </View>
+    <SafeAreaView style={styles.container1}>
+      <Text style={styles.text1}>Profile Screen - Coming Soon!</Text>
+      <FooterBar />
+    </SafeAreaView>
   );
 };
 
